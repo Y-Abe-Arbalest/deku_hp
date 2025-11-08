@@ -7449,8 +7449,8 @@ function Reservation() {
     setSubmitStatus("");
 
     try {
-      // GAS APIエンドポイントのURL（環境に応じて変更してください）
-      const gasApiUrl = "https://script.google.com/macros/s/YOUR_GAS_DEPLOYMENT_ID/exec";
+      // GAS APIエンドポイントのURL
+      const gasApiUrl = "https://script.google.com/macros/s/AKfycbx0C0t9Ow8cX5aG4hLW3Rshv6vIzzcmeRcT9XMZ2knV-q5A3jWE_REgngHEhyLhj_tI8w/exec";
       
       const response = await fetch(gasApiUrl, {
         method: "POST",
