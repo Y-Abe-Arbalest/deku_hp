@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+
+# エディタ
+.vscode/
+.idea/
+
+# 一時ファイル
+*.swp
+*.swo
+*~
+
+# ログ
+*.log
+
+# GASファイル（別管理）
+Code.gs
+
+# その他
+index.sh
+
