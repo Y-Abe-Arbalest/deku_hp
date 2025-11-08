@@ -7455,7 +7455,7 @@ function Reservation() {
       const response = await fetch(gasApiUrl, {
         method: "POST",
         headers: {
-          "Content-Type": "application/json",
+          "Content-Type": "text/plain",
         },
         body: JSON.stringify(formData)
       });
